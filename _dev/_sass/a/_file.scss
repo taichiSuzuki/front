@@ -1,0 +1,7 @@
+body {
+	@if  $type == all {
+		margin-bottom: 10px;
+	} @else if $type == sp {
+		margin-bottom: 40px;
+	}
+}

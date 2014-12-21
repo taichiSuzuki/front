@@ -1,0 +1,10 @@
+@charset "utf-8";
+$type: all;
+@import "./a/import";
+@import "./a/file";
+
+@media screen and (min-width: 640px){
+	$type: sp;
+	@import "./a/import";
+	@import "./a/file";
+}

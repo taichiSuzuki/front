@@ -1,0 +1,21 @@
+// Heading（モジュール名）
+//
+// Markup:
+// <header class="heading heading__lvTwo">
+// 		<h2>見出し</h2>
+// </header>
+//
+// Styleguide 1（スタイルガイドの章）
+
+body {
+	@if $type == sp {
+		color: green;
+	}
+}
+.heading__lvTwo{
+		@if $type == all {
+			border-bottom: 1px solid #000;
+			padding: 10px 15px;
+			font-size: 16px;
+		}
+	}

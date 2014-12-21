@@ -1,0 +1,5 @@
+body {
+	@if $type == all {
+		color: red;
+	}
+}
